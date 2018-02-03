@@ -1,9 +1,9 @@
 from app import app
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 @app.route('/')
 def main():
-    return "hello world"
+    return render_template('index.html')
 
 
 @app.route('/data')
