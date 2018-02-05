@@ -16,7 +16,7 @@ install_requires = [
 setup(
     name='python-flask',
     version='0.1',
-    packages=['app'],
+    packages=['python-flask'],
     url='',
     license='',
     author='kjyz1125',
