@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 install_requires = [
     'Flask==0.12.2',
@@ -16,7 +16,7 @@ install_requires = [
 setup(
     name='python-flask',
     version='0.1',
-    packages=['python-flask'],
+    packages=find_packages(),
     url='',
     license='',
     author='kjyz1125',
